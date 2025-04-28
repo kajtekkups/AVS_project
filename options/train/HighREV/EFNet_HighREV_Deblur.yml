@@ -11,7 +11,7 @@ datasets:
     type: NpzPngSingleDeblurDataset
 
     # dataroot: /work/lei_sun/HighREV/train
-    dataroot: /PATH/TO/DATASET/HighREV/train
+    dataroot: /content/drive/MyDrive/datasets/train
 
     voxel_bins: 6
     gt_size: 256
@@ -37,7 +37,7 @@ datasets:
     type: NpzPngSingleDeblurDataset
     voxel_bins: 6
     # dataroot: /work/lei_sun/HighREV/val
-    dataroot: /PATH/TO/DATASET/HighREV/val
+    dataroot: /content/drive/MyDrive/datasets/val 
     gt_size: ~
     norm_voxel: true  
 
