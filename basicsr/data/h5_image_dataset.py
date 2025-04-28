@@ -38,7 +38,8 @@ def concatenate_h5_datasets(dataset, opt):
     """
     file_folder_path = opt['dataroot']
     
-
+    print(file_folder_path)
+    print(os.path.isdir(file_folder_path))
     if os.path.isdir(file_folder_path):
         h5_file_path = [os.path.join(file_folder_path, s) for s in os.listdir(file_folder_path)]
     elif os.path.isfile(file_folder_path):
