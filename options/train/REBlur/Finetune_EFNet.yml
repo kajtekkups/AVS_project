@@ -41,7 +41,7 @@ datasets:
     type: H5ImageDataset
 
     # dataroot: ./datasets/test
-    dataroot: /content/AVS_project/datasets/REBlur_rawevents/val 
+    dataroot: /content/AVS_project/datasets/REBlur_rawevents/test
 
     # keep true
     norm_voxel: true  # true !
