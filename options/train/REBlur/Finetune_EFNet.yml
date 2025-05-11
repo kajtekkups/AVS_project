@@ -11,7 +11,7 @@ datasets:
     type: H5ImageDataset
 
     # dataroot: ./datasets/train
-    dataroot: /kaggle/input/avs-project-with-dataset/Project/REBlur_rawevents/REBlur_rawevents/train # REBlur
+    dataroot: /kaggle/input/avs-project-with-dataset/Project/datasets/REBlur_rawevents/REBlur_rawevents/train # REBlur
 
     # keep true if use events
     norm_voxel: true
@@ -41,7 +41,7 @@ datasets:
     type: H5ImageDataset
 
     # dataroot: ./datasets/test
-    dataroot: /kaggle/input/avs-project-with-dataset/Project/REBlur_rawevents/REBlur_rawevents/test
+    dataroot: /kaggle/input/avs-project-with-dataset/Project/datasets/REBlur_rawevents/REBlur_rawevents/test
 
     # keep true
     norm_voxel: true  # true !
