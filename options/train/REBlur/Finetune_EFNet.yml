@@ -17,8 +17,8 @@ datasets:
     norm_voxel: false
     return_voxel: false
 
-    return_mask: true 
-    use_mask: true
+    return_mask: false 
+    use_mask: false
 
     filename_tmpl: '{}'
     io_backend:
@@ -47,8 +47,8 @@ datasets:
     norm_voxel: false  # true !
     return_voxel: false
 
-    return_mask: true # dataloader yields mask
-    use_mask: true
+    return_mask: false # dataloader yields mask
+    use_mask: false
 
     io_backend:
       type: h5
