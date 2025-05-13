@@ -78,14 +78,14 @@ class H5ImageDataset(data.Dataset):
         Get voxels at index
         @param index The index of the voxels to get
         """
-        def print_structure(name, obj):
-            indent = "  " * (name.count("/") - 1)
-            if isinstance(obj, h5py.Dataset):
-                print(f"{indent}- Dataset: {name} | Shape: {obj.shape}, Dtype: {obj.dtype}")
-            elif isinstance(obj, h5py.Group):
-                print(f"{indent}+ Group: {name}")
-        print("\n new item")
-        self.h5_file.visititems(print_structure)
+        # def print_structure(name, obj):
+        #     indent = "  " * (name.count("/") - 1)
+        #     if isinstance(obj, h5py.Dataset):
+        #         print(f"{indent}- Dataset: {name} | Shape: {obj.shape}, Dtype: {obj.dtype}")
+        #     elif isinstance(obj, h5py.Group):
+        #         print(f"{indent}+ Group: {name}")
+        # print("\n new item")
+        # self.h5_file.visititems(print_structure)
 
 
         if self.h5_file is None:
