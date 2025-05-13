@@ -44,8 +44,8 @@ datasets:
     dataroot: /kaggle/input/avs-project-with-dataset/Project/datasets/REBlur_rawevents/REBlur_rawevents/test
 
     # keep true
-    norm_voxel: true  # true !
-    return_voxel: true
+    norm_voxel: false  # true !
+    return_voxel: false
 
     return_mask: true # dataloader yields mask
     use_mask: true
