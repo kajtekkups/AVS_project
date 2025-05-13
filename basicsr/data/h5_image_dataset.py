@@ -84,6 +84,7 @@ class H5ImageDataset(data.Dataset):
                 print(f"{indent}- Dataset: {name} | Shape: {obj.shape}, Dtype: {obj.dtype}")
             elif isinstance(obj, h5py.Group):
                 print(f"{indent}+ Group: {name}")
+        print("\n new item")
         self.h5_file.visititems(print_structure)
 
 
