@@ -24,7 +24,7 @@ datasets:
     io_backend:
       type: h5
 
-    crop_size: 256
+    crop_size: ~
     use_flip: true
     use_rot: true
 
