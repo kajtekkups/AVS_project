@@ -2,7 +2,7 @@
 name: EFNet_Finetune_test
 model_type: ImageEventRestorationModel
 scale: 1
-num_gpu: 1 # 4
+num_gpu: 0 # 4
 manual_seed: 10
 
 datasets:
@@ -12,7 +12,7 @@ datasets:
 
 
     # dataroot: /cluster/work/cvl/leisun/REBlur_addition # seems h5
-    dataroot: /cluster/work/cvl/leisun/REBlur/test # REBlur
+    dataroot: /kaggle/input/dataset/REBlur_rawevents/test # REBlur
 
     # keep true if use events
     norm_voxel: true
@@ -49,10 +49,10 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: /cluster/work/cvl/leisun/log/experiments/EV_Transformer_channelattention_simple_20witer/models/net_g_latest.pth
+  pretrain_network_g: /kaggle/AVS_project/net_g_latest_GoPro.pth
   strict_load_g: true
   resume_state: ~
-  root: /cluster/work/cvl/leisun/EFNet_inference/  # set this option ONLY in TEST!!!
+  root: /kaggle/AVS_project  # set this option ONLY in TEST!!!
 
 val:
   save_img: true
