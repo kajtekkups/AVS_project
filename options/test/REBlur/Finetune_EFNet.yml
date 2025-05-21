@@ -12,7 +12,7 @@ datasets:
 
 
     # dataroot: /cluster/work/cvl/leisun/REBlur_addition # seems h5
-    dataroot: /kaggle/input/dataset/REBlur_rawevents/test # REBlur
+    dataroot: /kaggle/input/avs-project-with-dataset/Project/datasets/REBlur_rawevents/REBlur_rawevents/test # REBlur
 
     # keep true if use events
     norm_voxel: true
